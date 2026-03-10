@@ -230,7 +230,6 @@ export default function FilterPage() {
 
         <main className="flex-1 flex items-center justify-center">
           <div className="text-center flex flex-col items-center">
-
             {selectedProvince && (
               <>
                 <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-blue-600 mb-2">
@@ -283,7 +282,6 @@ export default function FilterPage() {
             {!selectedProvince && !selectedRegency && !selectedDistrict && (
               <p className="text-gray-400 text-lg">Pilih wilayah dari sidebar untuk memulai</p>
             )}
-
           </div>
         </main>
       </div>
